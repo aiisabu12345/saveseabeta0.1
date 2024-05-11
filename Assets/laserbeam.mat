@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6742489728488973519
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: laserbeam
+  m_Shader: {fileID: -6465566751694194690, guid: ff9182f49f5cad2429c53712942f3880, type: 3}
+  m_Parent: {fileID: 2100000, guid: 6533c339085d59045b7e6e3962fe3c0e, type: 2}
+  m_ModifiedSerializedProperties: 28
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 881d9accc3e93f14b96d73d630c125fa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 64ade4b6d191a49489059c12b1bf71a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Noiseamount: 1
+    - _Noisepower: 0.2
+    - _Noisescale: 70
+    - _QueueControl: 1
+    - _QueueOffset: 0
+    m_Colors:
+    - _Color: {r: 0, g: 1024, b: 970.2886, a: 1}
+    - _Noisespeed: {r: 0.1, g: 0, b: 0, a: 0}
+    - _speed: {r: 1, g: 25, b: 0, a: 0}
+  m_BuildTextureStacks: []
